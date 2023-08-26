@@ -12,7 +12,7 @@ RUN tar -xvf v1.2.0.tar.gz
 
 RUN mkdir  $HOME/.vnc
 
-RUN echo 'Sophia' | vncpasswd -f > $HOME/.vnc/passwd
+RUN echo 'eric123' | vncpasswd -f > $HOME/.vnc/passwd
 
 RUN echo '/bin/env  MOZ_FAKE_NO_SANDBOX=1  dbus-launch xfce4-session'  > $HOME/.vnc/xstartup
 
